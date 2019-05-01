@@ -1,0 +1,18 @@
+# put that into .bashrc:
+
+# https://www.gnu.org/software/bash/manual/bashref.html#index-history
+# .bash_history is never truncated. Unlimited history
+# The maximum number of lines contained in the history file. When this variable is assigned a value, the history file is truncated, if necessary, to contain no more than that number of lines by removing the oldest entries. The history file is also truncated to this size after writing it when a shell exits. If the value is 0, the history file is truncated to zero size. Non-numeric values and numeric values less than zero inhibit truncation. The shell sets the default value to the value of HISTSIZE after reading any startup files.
+export HISTFILESIZE=-1
+# The maximum number of commands to remember on the history list. If the value is 0, commands are not saved in the history list. Numeric values less than zero result in every command being saved on the history list (there is no limit). The shell sets the default value to 500 after reading any startup files
+export HISTSIZE=-1
+
+# If this variable is set and not null, its value is used as a format string for strftime to print the time stamp associated with each history entry displayed by the history builtin. If this variable is set, time stamps are written to the history file so they may be preserved across shell sessions. This uses the history comment character to distinguish timestamps from other history lines.
+# http://man7.org/linux/man-pages/man3/strftime.3.html
+# Equivalent to %Y-%m-%d (the ISO 8601 date format). (C99)
+# %T     The time in 24-hour notation (%H:%M:%S).  (SU)
+export HISTTIMEFORMAT=’%F %T: ‘
+
+# check the window size after each command and, if necessary, update the values of LINES and COLUMNS.
+shopt -s checkwinsize
+
