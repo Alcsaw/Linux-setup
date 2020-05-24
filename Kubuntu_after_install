@@ -1,0 +1,74 @@
+# update .bashrc (https://github.com/Alcsaw/Linux-setup/blob/master/bashrc%20customizations)
+
+# Configure keyboard layout
+
+
+# installing some apps
+
+sudo apt install git
+sudo apt install keepassxc
+sudo apt install chromium
+
+# installing Flakpak
+
+sudo apt install flatpak
+
+sudo apt install plasma-discover-flatpak-backend
+
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+# restart
+
+# install Telegram
+flatpak install flathub org.telegram.desktop
+flatpak run org.telegram.desktop
+
+# update KDE Plasma
+https://launchpad.net/~kubuntu-ppa/+archive/ubuntu/backports
+sudo add-apt-repository ppa:kubuntu-ppa/backports
+sudo apt update && sudo apt full-upgrade
+
+# install Jetbrains Toolbox
+
+# Configure toolbar:
+Digital clock -> show date
+
+# Configure Dolphin:
+Show terminal panel
+Startup:
+    Show full path inside location bar
+    Show full path in title bar
+Services:
+    Disable: Create Audio CD, Video CD and file project with K3b
+    
+Settings:
+    Fonts:
+        size 12pt in everything except "fixed width" and "small" (10pt)
+        Force font DPI: 108
+
+    Application style:
+        Window Decoration -> Arc Dark
+        
+    Workspace Behavior:
+        Screen locking: Automatically after 30 minutes
+        Virtual desktops
+        
+    Window Management:
+        Window Behavior:
+            Titlebar Actions: middle click => Minimize for active and inactive frames
+    Touchpad:
+        Natural scrolling
+        Tap to click
+        middle click with left and right buttons simultaneously
+    Task Manager:
+        Behavior:
+            Group -> (NOT) Group only when the Task Manager is full
+            Sort -> (NOT) Keep lauchers separate
+        
+            
+            
+#TODO
+# Zshell
+# preview window in toolbar and show windows while hovering (not list for many windows)
+# make apps open "in-place" in toolbar
+# screenshot like Windows 10
