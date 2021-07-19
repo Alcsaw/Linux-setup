@@ -6,8 +6,11 @@ This configuration files are used to setup Z Shell with Power Level 10000 theme.
 ---
 
 Resources used:
+
 https://github.com/zsh-users/zsh
+
 https://github.com/romkatv/powerlevel10k
+
 https://github.com/zsh-users/zsh-autosuggestions
 
 
@@ -28,4 +31,3 @@ On Linux (Ubuntu 20.04):
 8. Copy the contents of [zshrc](./zshrc) to your `~/.zshrc`
 9.  [Install p10k](https://github.com/romkatv/powerlevel10k#manual)
 10. Copy the contents of [p10k.zsh](./p10k.zsh) to your `~/.p10k.zsh`
-11.
