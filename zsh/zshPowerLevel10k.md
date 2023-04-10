@@ -38,7 +38,7 @@ On Linux (Ubuntu 22.04):
 
 **Note about the configuration files:**
 
-I left in this repo the original configuration file created by Zsh (~/.zshrc) and P10K (~/.p10k.zsh) for reference. Since the configuration template changes over time, having the original version as of my installation, you can compare them and check what exactly I've changed to replicate my environment.
+I left in this repo the original configuration file created by Zsh ([~/.zshrc](./original_zshrc)) and P10K ([~/.p10k.zsh](./original_p10k.zsh)) for reference. Since the configuration template changes over time, having the original version as of my installation, you can compare them and check what exactly I've changed to replicate my environment.
 
 **Note about the terminal font:**
 
