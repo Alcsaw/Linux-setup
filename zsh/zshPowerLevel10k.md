@@ -32,7 +32,8 @@ On Linux (Ubuntu 22.04):
 9. Copy the contents of [zshrc](./zshrc) to your `~/.zshrc`
 10. [Install p10k](https://github.com/romkatv/powerlevel10k#manual)
 11. (Recomended, but optional) initialize P10K theme by executing `zsh` again and following the configuration wizard; then `exit`
-12. Copy the contents of [p10k.zsh](./p10k.zsh) to your `~/.p10k.zsh`; or make a diff from yours and add settings accordingly.
+12. Copy the contents of [p10k.zsh](./p10k.zsh) to your `~/.p10k.zsh`; or make a diff from yours and add settings accordingly
+13. To make Zsh the default shell, run `chsh -s $(which zsh)`
 
 ## Notes
 
